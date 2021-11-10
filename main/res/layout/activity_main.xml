@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnl"
+        android:text="Linear"
+        android:textSize="33dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:width="50px"
+        android:background="#5E6BB4"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btnr"
+        android:text="Relative"
+        android:textSize="33dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:width="50px"
+        android:layout_marginBottom="20dp"
+
+        android:background="#5E6BB4"
+        />
+    <Button
+        android:text="Frame"
+        android:textSize="33dp"
+        android:id="@+id/btns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:width="50px"
+        android:background="#5E6BB4"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:text="Frame_Layout2"
+        android:textSize="33dp"
+        android:id="@+id/btnp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:width="50px"
+        android:background="#5E6BB4"
+        />
+
+
+
+
+
+</LinearLayout>
